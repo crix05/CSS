@@ -1,0 +1,30 @@
+body
+{
+    text-align:center;
+    text-shadow: 8px;
+    margin-top: 20px;
+}
+
+a 
+{  
+    text-decoration :none;
+    text-transform: uppercase;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 300%;
+    color: blueviolet;
+   
+
+
+}
+
+a:hover
+{
+    background-color: greenyellow;
+}
+
+a:active
+{
+    font-size : 2vw;
+}

@@ -1,0 +1,26 @@
+.gs
+{
+    background-color: red;
+    height: 50px;
+    width: 30%;
+    display :inline-block;
+    border-color: yellow;
+    padding : 10px;
+    border-color: yellow;
+}
+
+
+.po
+{
+    background-color: yellow;
+    height: 50px;
+   
+    width: 30%;
+    outline-color: red;
+    float :right;
+    display :inline-block;
+    padding : 10px;
+    border-color: red;
+
+   
+}

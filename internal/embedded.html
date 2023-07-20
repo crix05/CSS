@@ -1,0 +1,67 @@
+<!-- CSS stands for Cascading style sheets. It is used for designing and styling web pages.--> 
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="styleBg.css">
+    <!-- Link is used to link external style sheet to HTML file. ALways created in head. -->
+</head>
+
+<style>
+
+    /* CSS syntax
+    
+    selector
+    {
+        property_1 : value_1;
+        property_2 : value_2;
+    }
+
+    Types of selectors 
+    {
+        1. Element selector.  [(<p> Hello there </p>) This is an element].
+        2. Id selector.
+        3. Class selector.
+    }
+
+        
+        */
+body {
+    background : cyan
+}
+
+p
+{
+    background : green
+}
+
+#para {
+    background : rgba(21, 77, 160, 0.568) 
+       /* Custom color selected using the square checkbox */
+}
+
+.pink {
+    background : pink
+}
+
+
+</style>
+<body>
+    <p> Hello there </p>
+    <p> Hello there 2.0 </p>
+    <p id = "para"> This is different </p>
+    <p class="pink"> This paragraph is under class </p>
+    <div class="pink">This division is under class </div>
+    <div class="ljk"> Division <br>
+        <ul type = "square" >
+            <li>Listed item 1</li>
+            <li>Listed item 2</li>
+            <li>Listed item 3</li>
+            <li>Listed item 4</li>
+        </ul> </div>
+    <!-- Two elements cannot have the same id, but two elements can be under the same class. An element can either have no id or must have a unique id. -->
+
+
+</body>
+</html>

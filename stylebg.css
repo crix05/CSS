@@ -1,0 +1,8 @@
+body{
+    /* background : grey;
+    background-image : url('galaxy.jpg');
+    background-repeat: no-repeat;
+    background-position : right top; */
+
+    background : grey url('galaxy.jpg') no-repeat right top;
+}
